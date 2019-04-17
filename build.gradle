@@ -2,7 +2,6 @@
 plugins {
     id "java"
     id "maven-publish"
-    id "nebula.release" version "10.1.1"
 }
 
 repositories {
