@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="gradle-test-publication.integTest" target="1.7" />
+      <module name="gradle-test-publication.main" target="1.10" />
+      <module name="gradle-test-publication.test" target="1.10" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
