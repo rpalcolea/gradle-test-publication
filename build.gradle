@@ -21,3 +21,16 @@ dependencies {
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+            versionMapping {
+                allVariants{
+                    fromResolutionResult()
+                }
+            }
+        }
+    }
+}
