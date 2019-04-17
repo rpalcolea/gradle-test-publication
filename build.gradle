@@ -1,7 +1,7 @@
 
 plugins {
     id "java"
-    id "nebula.maven-publish" version "10.0.2"
+    id "maven-publish"
     id "nebula.release" version "10.1.1"
 }
 
